@@ -1,7 +1,8 @@
 <h2>Edit page</h2>
 <br>
-<%= simple_form_for @user do |f| %>
-  <%= f.input :username %>
+<%= simple_form_for @content do |f| %>
+  <%= f.input :title %>
+  <%= f.input :sentence %>
   <%= f.button :submit %>
 <% end %>
 
